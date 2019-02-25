@@ -1,0 +1,5 @@
+<< END
+node_modules
+tsc
+dist
+END

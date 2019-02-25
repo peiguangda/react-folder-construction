@@ -1,0 +1,11 @@
+import * as React from 'react';
+import { Button } from '../button';
+import * as enzyme from 'enzyme';
+
+describe('Button Component', () => {
+  it('renders the correct', () => {
+    const result = enzyme.shallow(<Button />).contains(<h1>Hello!</h1>);
+    expect(result).toBeTruthy();
+
+  });
+})
